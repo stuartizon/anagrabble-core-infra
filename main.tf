@@ -19,3 +19,7 @@ resource "aws_ecs_cluster" "default" {
     "FARGATE"
   ]
 }
+
+resource "aws_route53_zone" "anagrabble" {
+  name = "anagrabble.com"
+}
